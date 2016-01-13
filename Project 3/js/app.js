@@ -1,5 +1,5 @@
 var Enemy = function() {
-
+    this.sprite = 'images/enemy-bug.png'
     this.speed = Math.floor(Math.random()*300) + 100;
     this.x = 0;
 
